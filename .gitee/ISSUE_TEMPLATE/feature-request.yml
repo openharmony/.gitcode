@@ -1,21 +1,21 @@
-name: 需求建议
-description: 您需要反馈一个需求建议时，使用此模板反馈
-title: "[需求建议]: "
+name: 新需求|Feature
+description: 您需要反馈或实现一个新需求时，使用此模板。
+title: "[新需求]: "
 labels: ["enhancement"]
 body:
   - type: markdown
     attributes:
       value: |
-        感谢提出建议，我们将仔细考虑！
+        感谢提出新需求。
   - type: textarea
     attributes:
-      label: 您需要什么功能？
-      description: 请描述下您需要的功能是什么？社区会综合考虑是否支持您提出的需求。
+      label: 新需求提供了什么功能？
+      description: 请描述下新需求的功能是什么，解决了什么问题
     validations:
       required: true
   - type: textarea
     attributes:
-      label: 为什么需要该功能？
+      label: 该需求带来的价值、应用场景？
       description: 请描述下该需求的价值，应用场景等。
     validations:
-      required: true
+      required: false
