@@ -40,9 +40,10 @@ body:
       description: 在哪些版本、分支存在该缺陷的？
       options:
         - label: master
-        - label: 5.0-Beta1
+        - label: Release 6.0
+        - label: Release 5.1.0
+        - label: Release 5.0.3
         - label: Release 4.1
-        - label: Release 4.0
-        - label: Release 3.2
+        - label: Other
     validations:
       required: true
